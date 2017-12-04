@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		01E06B0AB07600DA0419A32A /* Pods_FFCallCenter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC6F2773C1D2B799EA06FAF /* Pods_FFCallCenter_Tests.framework */; };
+		1D3A79D01FD5289C00AE03D3 /* FFCallCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3A79CF1FD5289C00AE03D3 /* FFCallCenter.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,7 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D0EA2F81C42992F0FC51FB0 /* RemoveMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RemoveMe.m; path = ../FFCallCenter/RemoveMe.m; sourceTree = "<group>"; };
+		1D3A79CE1FD5289C00AE03D3 /* FFCallCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFCallCenter.h; sourceTree = "<group>"; };
+		1D3A79CF1FD5289C00AE03D3 /* FFCallCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFCallCenter.m; sourceTree = "<group>"; };
 		35D56FD020841B4B5E8101D4 /* Pods-FFCallCenter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFCallCenter_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFCallCenter_Example/Pods-FFCallCenter_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FFCallCenter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFCallCenter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -57,15 +59,15 @@
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
-		715AEEAB259B9B645E790081 /* FFCallCenter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; path = FFCallCenter.podspec; sourceTree = "<group>"; };
+		715AEEAB259B9B645E790081 /* FFCallCenter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = FFCallCenter.podspec; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72CC87B111269B56291EEE1B /* Pods-FFCallCenter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFCallCenter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FFCallCenter_Tests/Pods-FFCallCenter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		77F69D962C3189B4F0A55265 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		77F69D962C3189B4F0A55265 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		7FC6F2773C1D2B799EA06FAF /* Pods_FFCallCenter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFCallCenter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87FD23B388B31BC35E7372FD /* Pods-FFCallCenter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFCallCenter_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFCallCenter_Tests/Pods-FFCallCenter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		88FDDAF4FA146A7AAF55CA2C /* Pods_FFCallCenter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFCallCenter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA05878D9E5891D27C266E74 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		AA05878D9E5891D27C266E74 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BE006EE2E013BFA60791C70C /* Pods-FFCallCenter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFCallCenter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFCallCenter_Example/Pods-FFCallCenter_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -98,9 +100,9 @@
 		1D4EE82C1FCDD0590062AFE5 /* FFCallCenter */ = {
 			isa = PBXGroup;
 			children = (
-				1D0EA2F81C42992F0FC51FB0 /* RemoveMe.m */,
+				1D3A79CE1FD5289C00AE03D3 /* FFCallCenter.h */,
+				1D3A79CF1FD5289C00AE03D3 /* FFCallCenter.m */,
 			);
-			name = FFCallCenter;
 			path = FFCallCenter;
 			sourceTree = "<group>";
 		};
@@ -411,6 +413,7 @@
 			files = (
 				6003F59E195388D20070C39A /* FCNAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* FCNViewController.m in Sources */,
+				1D3A79D01FD5289C00AE03D3 /* FFCallCenter.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
