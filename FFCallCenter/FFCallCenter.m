@@ -9,21 +9,21 @@
 #import "FFCallCenter.h"
 #import <objc/runtime.h>
 
-@interface DYCallCenter ()
+@interface FFCallCenter ()
 
 @property (nonatomic, strong) NSMutableDictionary *cachedTarget;
 
 @end
 
-@implementation DYCallCenter
+@implementation FFCallCenter
 
 #pragma mark - public methods
 + (instancetype)sharedInstance
 {
-    static DYCallCenter *callCenter;
+    static FFCallCenter *callCenter;
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        callCenter = [[DYCallCenter alloc] init];
+        callCenter = [[FFCallCenter alloc] init];
     });
     return callCenter;
 }

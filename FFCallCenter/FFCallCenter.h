@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface DYCallCenter : NSObject
+@interface FFCallCenter : NSObject
 
 + (instancetype)sharedInstance;
 
