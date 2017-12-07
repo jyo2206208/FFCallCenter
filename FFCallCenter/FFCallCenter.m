@@ -80,6 +80,7 @@
     
     if (target == nil) {
         // 这里是处理无响应请求的地方之一，这个demo做得比较简单，如果没有可以响应的target，就直接return了。实际开发过程中是可以事先给一个固定的target专门用于在这个时候顶上，然后处理这种请求的
+        NSLog(@"💥💥💥💥💥💥💥找不到 %@💥💥💥💥💥💥💥",targetClassString);
         return nil;
     }
     
@@ -118,8 +119,10 @@
     }
     const char* retType = [methodSig methodReturnType];
     
+    //返回值为void的情况
     if (strcmp(retType, @encode(void)) == 0) {
         NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:methodSig];
+        // 参数必须从第2个索引开始，因为前两个已经被target和selector使用
         [invocation setArgument:&params atIndex:2];
         [invocation setSelector:action];
         [invocation setTarget:target];
@@ -127,6 +130,7 @@
         return nil;
     }
     
+    //返回值为NSInteger的情况
     if (strcmp(retType, @encode(NSInteger)) == 0) {
         NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:methodSig];
         [invocation setArgument:&params atIndex:2];
@@ -138,6 +142,7 @@
         return @(result);
     }
     
+    //返回值为BOOL的情况
     if (strcmp(retType, @encode(BOOL)) == 0) {
         NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:methodSig];
         [invocation setArgument:&params atIndex:2];
@@ -149,6 +154,7 @@
         return @(result);
     }
     
+    //返回值为CGFloat的情况
     if (strcmp(retType, @encode(CGFloat)) == 0) {
         NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:methodSig];
         [invocation setArgument:&params atIndex:2];
@@ -160,6 +166,7 @@
         return @(result);
     }
     
+    //返回值为NSUInteger的情况
     if (strcmp(retType, @encode(NSUInteger)) == 0) {
         NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:methodSig];
         [invocation setArgument:&params atIndex:2];
