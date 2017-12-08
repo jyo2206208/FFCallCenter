@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		01E06B0AB07600DA0419A32A /* Pods_FFCallCenter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FC6F2773C1D2B799EA06FAF /* Pods_FFCallCenter_Tests.framework */; };
+		1D329A441FDA70060060A38E /* shoppingBagHeader.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D329A3F1FDA70060060A38E /* shoppingBagHeader.png */; };
+		1D329A451FDA70060060A38E /* shoppingBag.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D329A401FDA70060060A38E /* shoppingBag.png */; };
+		1D329A461FDA70060060A38E /* README_cn.md in Resources */ = {isa = PBXBuildFile; fileRef = 1D329A411FDA70060060A38E /* README_cn.md */; };
+		1D329A471FDA70060060A38E /* before.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D329A421FDA70060060A38E /* before.png */; };
+		1D329A481FDA70060060A38E /* after.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D329A431FDA70060060A38E /* after.png */; };
+		1D329A4E1FDA705B0060A38E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1D329A4D1FDA705B0060A38E /* README.md */; };
 		1D3A79D01FD5289C00AE03D3 /* FFCallCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3A79CF1FD5289C00AE03D3 /* FFCallCenter.m */; };
 		1D3A79D81FD6AF3F00AE03D3 /* FCNTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3A79D71FD6AF3F00AE03D3 /* FCNTests.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -38,6 +44,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1D329A3F1FDA70060060A38E /* shoppingBagHeader.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoppingBagHeader.png; sourceTree = "<group>"; };
+		1D329A401FDA70060060A38E /* shoppingBag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shoppingBag.png; sourceTree = "<group>"; };
+		1D329A411FDA70060060A38E /* README_cn.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README_cn.md; sourceTree = "<group>"; };
+		1D329A421FDA70060060A38E /* before.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = before.png; sourceTree = "<group>"; };
+		1D329A431FDA70060060A38E /* after.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = after.png; sourceTree = "<group>"; };
+		1D329A4D1FDA705B0060A38E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1D3A79CE1FD5289C00AE03D3 /* FFCallCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFCallCenter.h; sourceTree = "<group>"; };
 		1D3A79CF1FD5289C00AE03D3 /* FFCallCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFCallCenter.m; sourceTree = "<group>"; };
 		1D3A79D71FD6AF3F00AE03D3 /* FCNTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCNTests.m; sourceTree = "<group>"; };
@@ -67,7 +79,6 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		87FD23B388B31BC35E7372FD /* Pods-FFCallCenter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFCallCenter_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFCallCenter_Tests/Pods-FFCallCenter_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		88FDDAF4FA146A7AAF55CA2C /* Pods_FFCallCenter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFCallCenter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AA05878D9E5891D27C266E74 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BE006EE2E013BFA60791C70C /* Pods-FFCallCenter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFCallCenter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-FFCallCenter_Example/Pods-FFCallCenter_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +108,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D329A3E1FDA6FED0060A38E /* Docs */ = {
+			isa = PBXGroup;
+			children = (
+				1D329A431FDA70060060A38E /* after.png */,
+				1D329A421FDA70060060A38E /* before.png */,
+				1D329A411FDA70060060A38E /* README_cn.md */,
+				1D329A401FDA70060060A38E /* shoppingBag.png */,
+				1D329A3F1FDA70060060A38E /* shoppingBagHeader.png */,
+			);
+			path = Docs;
+			sourceTree = "<group>";
+		};
 		1D4EE82C1FCDD0590062AFE5 /* FFCallCenter */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,7 +134,7 @@
 			children = (
 				715AEEAB259B9B645E790081 /* FFCallCenter.podspec */,
 				77F69D962C3189B4F0A55265 /* LICENSE */,
-				AA05878D9E5891D27C266E74 /* README.md */,
+				1D329A4D1FDA705B0060A38E /* README.md */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
@@ -119,6 +142,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				1D329A3E1FDA6FED0060A38E /* Docs */,
 				1D6A88461FCDF04A003F3DE4 /* Podspec Metadata */,
 				1D4EE82C1FCDD0590062AFE5 /* FFCallCenter */,
 				6003F593195388D20070C39A /* Example for FFCallCenter */,
@@ -290,9 +314,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D329A471FDA70060060A38E /* before.png in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				1D329A4E1FDA705B0060A38E /* README.md in Resources */,
+				1D329A481FDA70060060A38E /* after.png in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				1D329A451FDA70060060A38E /* shoppingBag.png in Resources */,
+				1D329A441FDA70060060A38E /* shoppingBagHeader.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
+				1D329A461FDA70060060A38E /* README_cn.md in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
