@@ -3,18 +3,18 @@ FFCallCenter
 
 [**中文说明**](Docs/README_cn.md)
 
-FFCallCenter is a pod library for communication between each componets after modulization as a mediator.
+FFCallCenter is a pod library for communication between each componets after Modularization as a mediator.
 
-The Pain point after modulization
+The Pain point after Modularization
 ==============
-1. The most simple way to decoupling in modulization is to maintain a big mapping table in mediator.The mapping table contain a string as a Key and a value for use(for example a UIViewController).This mapping table will stay in memory with the mediator all time, and that may cause a bad performance.And it is also a problem for a developer to find a 
+1. The most simple way to decoupling in Modularization is to maintain a big mapping table in mediator.The mapping table contain a string as a Key and a value for use(for example a UIViewController).This mapping table will stay in memory with the mediator all time, and that may cause a bad performance.And it is also a problem for a developer to find a 
 correct key to get data.
 #####Example:
 >PLP boy: I can't get the `shoppingBagViewController` from the mediator. I debugged the whole day and finally found the problem, the key in the mapping table is defined as @"shoping", it missed a "p". 
 
 2. If there is no mediator for communication between each componets but only router, it will be very difficult to control the data communication except the navigation. Imagine that shoppingBag has a picture of bag.png, which was available in MainProject and everyone can visit it, you can get it very easy just like [UIImage imageNamed:@ "bag"]. But after the shoppingBag component splited . If PLP, PDP and other component need to display the picture, it will be very difficult. (it is not fun to put pictures in all components or main projects).
 
-3. If the modulization without a mediator for communication between each componets,
+3. If the Modularization without a mediator for communication between each componets,
 each componet is nominal decoupling only, and in fact they are coupled with each other. I guess you don't want to see a teamwork like this.↓
 #####Example:
 >PLP boy: I can't finish this PDP - based feature today, because PDP boy is not finished yet. I need to wait for his completion to continue.
@@ -32,7 +32,7 @@ The advantages of FFCallCenter
 3. Resolve the dependency between components. You don't have to wait for the completion of other business component. You can even do parallel development while the business components is not exist.
 4. There is a special public target that is different from the business code and is less intrusive to the business.
 
-befor modulization
+befor Modularization
 ==============
 * All the squares is a pod library except mainProject.  
 * The red is the business component.  
@@ -40,7 +40,7 @@ befor modulization
 ![avatar](Docs/before.png)
 
 
-after modulization
+after Modularization
 ==============
 * All the squares is a pod library except mainProject.  
 * The red is the business component. 
